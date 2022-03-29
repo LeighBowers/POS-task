@@ -1,0 +1,54 @@
+body{
+    background-color: rgba(214, 199, 194, 0.979);
+    text-align: center;
+
+}
+
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    
+    
+}
+.products{
+    width: 25%;
+    border: 1px solid;
+    padding: 20px;
+    margin: 2%;
+    border-radius: 15px;
+    
+
+}
+
+.products img{
+    width: 140px;
+    height: 200px !important;
+    object-fit: cover;
+    
+}
+.card {
+    width: calc((100% / 4) - 15px);
+    min-width: 300px;
+  }
+  
+  .card-title {
+    text-transform: capitalize;
+  }
+ .lable{
+    text-align: center;
+ }
+.form-label{
+    text-align: center;
+}
+.modal-backdrop {
+    display: none;
+    z-index: 1040 !important;
+}
+
+.modal-content {
+    margin: 2px auto;
+    z-index: 1100 !important;
+    color: black;
+}
